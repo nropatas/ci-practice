@@ -2,6 +2,9 @@
   "name": "ci-practice",
   "version": "1.0.0",
   "description": "",
+  "engine": {
+      "node": "5.12"
+  },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
