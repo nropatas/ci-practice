@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 });
 
-app.listen(app.get('port'), () => {
+const server = app.listen(app.get('port'), () => {
     console.log('Server is listening to port ' + app.get('port'));
 });
+
+module.exports = server;
